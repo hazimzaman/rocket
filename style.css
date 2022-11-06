@@ -1,0 +1,78 @@
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+.rocket-bg{
+    width:100%;
+    height:100vh;
+	display:flex;
+	align-items:center;
+	
+	position:absolute;
+	bottom:0;
+	justify-content:center;
+}
+.rocket-content{
+	display:flex;
+    flex-direction: column;
+	align-items:center;
+	z-index: 2;
+	justify-content:center;
+}
+.rocket-content h1{
+    font-size:80px;
+    color:white;
+}
+.start-rocket{
+	border:2px solid white;
+    
+}
+.rocketAni{
+	width:100%;
+    margin:400px 0px;
+	
+	
+}
+img{
+    position: absolute;
+    bottom: -10%;
+    transform: rotate(180deg) translateX(42%);
+    left: 49%;
+    width: 22%;
+    z-index: -1;
+}
+body{
+	 background:url(./gallaxy2.png);
+		 position:static;
+		 background-size: cover;
+		 background-repeat: no-repeat;
+}
+
+.start-rocket{
+    padding:15px 35px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+.svgWrapper{
+	position: relative;
+}
+h1{
+    font-family:sans-serif;
+  margin: 30px 0px;
+}
